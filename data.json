@@ -1,0 +1,57 @@
+{
+  "groceries": [
+    {
+      "id": 1740045793745,
+      "name": "Banana",
+      "price": 1.2,
+      "stock": 48,
+      "description": "Fresh banana"
+    },
+    {
+      "id": 1740046349513,
+      "name": "jackfruit",
+      "price": 1.2,
+      "stock": 47,
+      "description": "jackfruit"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1740045701744,
+      "items": [
+        {
+          "groceryId": 1740045603984,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 1.2,
+      "status": "pending"
+    },
+    {
+      "id": 1740045935669,
+      "items": [
+        {
+          "groceryId": 1740045793745,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 1.2,
+      "status": "pending"
+    },
+    {
+      "id": 1740046575239,
+      "items": [
+        {
+          "groceryId": 1740045793745,
+          "quantity": 1
+        },
+        {
+          "groceryId": 1740046349513,
+          "quantity": 5
+        }
+      ],
+      "totalPrice": 7.2,
+      "status": "pending"
+    }
+  ]
+}
