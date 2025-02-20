@@ -1,5 +1,8 @@
 # qp-assessment
-qp-assessment
+
+Run the application using - node src/server.js
+
+CURL for checking the apis- 
 
 1. Get groceries
 curl --location 'http://0.0.0.0:5000/api/groceries/'
